@@ -4,3 +4,7 @@ Word Meaning Evolution through Incremental Semantic Shift Detection: a Case-Stud
 ```
 unzip data.zip
 ```
+
+```
+python case-study-application.py
+```
