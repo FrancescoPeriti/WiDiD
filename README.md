@@ -31,6 +31,16 @@ bash sbatch/diacrita-italian-extraction.sh tokenization embeddings datasets
 bash sbatch/lscdiscovery-spanish-extraction.sh tokenization embeddings datasets
 bash sbatch/rushifteval-russian-extraction.sh tokenization embeddings datasets
 ```
+<b> Clustering </b>
+```
+bash sbatch/semeval-english-clustering.sh embeddings labels datasets
+bash sbatch/diacrita-italian-clustering.sh embeddings labels datasets
+bash sbatch/rushifteval-russian-clustering.sh embeddings labels datasets
+bash sbatch/semeval-german-clustering.sh embeddings labels datasets
+bash sbatch/semeval-latin-clustering.sh embeddings labels datasets
+bash sbatch/semeval-swedish-clustering.sh embeddings labels datasets
+bash sbatch/lscdiscovery-spanish-clustering.sh embeddings labels datasets
+```
 
 ## Case Study
 ```
