@@ -51,24 +51,3 @@ for i in range(1, 3):
     for word in target_words:
         filename = folder+f'/{word}.txt'
         df[df['token'] == word].to_json(filename, orient='records', lines=True)
-        
-# Emulate binary scores
-filename_graded = f'{dataset_folder}/truth/graded_test.txt'
-df_graded=pd.read_csv(filename_graded, sep='\t', names=['word', 'score'], encoding='utf-8').sort_values('score')
-
-filename_binary = f'{dataset_folder}/truth/binary.txt'
-df_binary=pd.DataFrame()
-df_binary['word']=df_graded['word'][:20].values.tolist() + df_graded['word'][-20:].values.tolist()
-df_binary['score'] = [0]*20 + [1]*20
-df_binary.to_csv(filename_binary, sep='\t', index=False, header=False, encoding='utf-8')
-
-new_df_graded=pd.DataFrame()
-new_df_graded['word']=df_graded['word'][:20].values.tolist() + df_graded['word'][-20:].values.tolist()
-new_df_graded['score'] = df_graded['score'][:20].values.tolist() + df_graded['score'][-20:].values.tolist()
-df_graded=new_df_graded.sort_values('word')
-
-new_filename_graded = f'{dataset_folder}/truth/graded.txt'
-df_graded.to_csv(new_filename_graded, sep='\t', index=False, header=False, encoding='utf-8')
-
-new_filename_targets = f'{dataset_folder}/targets.txt'
-df_graded[['word']].to_csv(new_filename_targets, sep='\t', index=False, header=False, encoding='utf-8')
