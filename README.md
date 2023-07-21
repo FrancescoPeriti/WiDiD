@@ -14,12 +14,12 @@ bash sbatch/lscdiscovery-spanish-download.sh datasets
 ```
 <b> Tokenization </b>
 ```
-sbatch sbatch/tokenization/semeval-english-tokenization.sh datasets tokenization
-sbatch sbatch/tokenization/semeval-german-tokenization.sh datasets tokenization
-sbatch sbatch/tokenization/semeval-latin-tokenization.sh datasets tokenization
-sbatch sbatch/tokenization/semeval-swedish-tokenization.sh datasets tokenization
-sbatch sbatch/tokenization/diacrita-italian-tokenization.sh datasets tokenization
-sbatch sbatch/tokenization/lsdiscovery-spanish-tokenization.sh datasets tokenization
+bash sbatch/tokenization/semeval-english-tokenization.sh datasets tokenization
+bash sbatch/tokenization/semeval-german-tokenization.sh datasets tokenization
+bash sbatch/tokenization/semeval-latin-tokenization.sh datasets tokenization
+bash sbatch/tokenization/semeval-swedish-tokenization.sh datasets tokenization
+bash sbatch/tokenization/diacrita-italian-tokenization.sh datasets tokenization
+bash sbatch/tokenization/lsdiscovery-spanish-tokenization.sh datasets tokenization
 ```
 
 
