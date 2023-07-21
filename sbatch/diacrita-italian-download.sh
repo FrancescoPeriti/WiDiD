@@ -30,8 +30,8 @@ do
     done
 done
 
-python "${current_folder}/src/processing/italian_processing.py" T0.txt "${dataset_folder}/${italian}/corpus1/token/corpus1.txt" "${dataset_folder}/${italian}/corpus1/lemma/corpus1.txt" 
-python "${current_folder}/src/processing/italian_processing.py T1.txt" "${dataset_folder}/${italian}/corpus2/token/corpus2.txt" "${dataset_folder}/${italian}/corpus2/lemma/corpus2.txt" 
+python "${current_folder}/src/processing/diacrita-italian-processing.py" T0.txt "${dataset_folder}/${italian}/corpus1/token/corpus1.txt" "${dataset_folder}/${italian}/corpus1/lemma/corpus1.txt" 
+python "${current_folder}/src/processing/diacrita-italian-processing.py" T1.txt "${dataset_folder}/${italian}/corpus2/token/corpus2.txt" "${dataset_folder}/${italian}/corpus2/lemma/corpus2.txt" 
 rm T0.txt T1.txt
 mkdir "${dataset_folder}/${italian}/truth"
 wget https://raw.githubusercontent.com/diacr-ita/data/master/test/gold.txt -O binary.txt
