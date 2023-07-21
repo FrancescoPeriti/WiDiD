@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Russian data available here: https://disk.yandex.ru/d/CIU9Hm0tvKPH2g"
+echo "Download it and rename it data.zip before proceeding"
+
 # --- Create dataset folder ---
 dataset_folder="$1/LSC"
 current_folder="$(pwd)"
@@ -54,9 +57,9 @@ rm targets_test.txt
 # --- Processing ---
 unzip data.zip
 
-python "${current_folder}/src/processing/russian_processing.py" -r "data/RuShiftEval/epoch-12/samples" -d "${dataset_folder}/${russian12}" -t "${tokenization_folder}/${russian12}" 
-python "${current_folder}/src/processing/russian_processing.py" -r "data/RuShiftEval/epoch-23/samples" -d "${dataset_folder}/${russian23}" -t "${tokenization_folder}/${russian23}"
-python "${current_folder}/src/processing/russian_processing.py" -r "data/RuShiftEval/epoch-13/samples" -d "${dataset_folder}/${russian13}" -t "${tokenization_folder}/${russian13}"
+python "${current_folder}/src/processing/rushifteval-russian-processing.py" -r "data/RuShiftEval/epoch-12/samples" -d "${dataset_folder}/${russian12}" -t "${tokenization_folder}/${russian12}" 
+python "${current_folder}/src/processing/rushifteval-russian-processing.py" -r "data/RuShiftEval/epoch-23/samples" -d "${dataset_folder}/${russian23}" -t "${tokenization_folder}/${russian23}"
+python "${current_folder}/src/processing/rushifteval-russian-processing.py" -r "data/RuShiftEval/epoch-13/samples" -d "${dataset_folder}/${russian13}" -t "${tokenization_folder}/${russian13}"
 
 rm -rf data
 #rm -rf data.zip
