@@ -60,3 +60,8 @@ unzip data.zip
 ```
 python case-study-application.py
 ```
+
+```
+python case-study-visualization.py
+```
+
