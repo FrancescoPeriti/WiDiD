@@ -311,4 +311,4 @@ for word in semantic_shift:
     semantic_shift_df.append(record)
 
 # store results
-pd.DataFrame(semantic_shift_df).to_csv('senmantic_shift.tsv', sep='\t', index=False)
+pd.DataFrame(semantic_shift_df).to_csv('semantic_shift.tsv', sep='\t', index=False)
