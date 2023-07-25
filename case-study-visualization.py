@@ -2,8 +2,10 @@ from src.visualization import WiDiDClusters
 import plotly.io as pio
 import pandas as pd
 import os
+import urllib.request
 
 words = set([w.strip() for w in open(target_path, mode='r').readlines() if w.strip() != ''])
+urllib.request.urlretrieve('https://clarin.eurac.edu/repository/xmlui/bitstream/handle/20.500.12124/3/lemma-WITHOUTnumberssymbols-frequencies-paisa.txt.gz?sequence=6&isAllowed=y', 'lemma-paisa.txt')
 
 with open('lemma-paisa.txt', 'r') as file:
     vocab = file.readlines()
