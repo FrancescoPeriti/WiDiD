@@ -43,13 +43,13 @@ bash sbatch/lscdiscovery-spanish-clustering.sh embeddings labels datasets
 ```
 <b> LSC measuring </b>
 ```
-bash semeval-english-lsc-measuring.sh embeddings labels scores datasets
-bash diacrita-italian-lsc-measuring.sh embeddings labels scores datasets
-bash rushifteval-russian-measuring.sh" embeddings labels scores datasets
-bash semeval-german-lsc-measuring.sh embeddings labels scores datasets
-bash semeval-latin-lsc-measuring.sh embeddings labels scores datasets
-bash semeval-swedihs-lsc-measuring.sh embeddings labels scores datasets
-bash lscdiscovery-spanish-lsc-measuring.sh embeddings labels scores datasets
+bash sbatch/semeval-english-lsc-measuring.sh embeddings labels scores datasets
+bash sbatch/diacrita-italian-lsc-measuring.sh embeddings labels scores datasets
+bash sbatch/rushifteval-russian-measuring.sh" embeddings labels scores datasets
+bash sbatch/semeval-german-lsc-measuring.sh embeddings labels scores datasets
+bash sbatch/semeval-latin-lsc-measuring.sh embeddings labels scores datasets
+bash sbatch/semeval-swedihs-lsc-measuring.sh embeddings labels scores datasets
+bash sbatch/lscdiscovery-spanish-lsc-measuring.sh embeddings labels scores datasets
 ```
 
 ## Case Study
