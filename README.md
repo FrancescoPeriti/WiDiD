@@ -18,9 +18,9 @@ Figure: An example of semantic shift in the word _abuse_ over time.
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Case Study](#case-study)
+- [Abstract](#abstract)
+- [References](#references)
 
 ## Introduction
 
@@ -28,19 +28,16 @@ Words are malleable, and their meanings continuously evolve due to various facto
 
 ## Getting Started
 
-### Prerequisites
-
 Before you begin, ensure you have met the following requirements:
 
-- Python 3.7+
+- Python 3.8+
 - Required Python packages (listed in `requirements.txt`)
 
 To install the required packages, you can use pip:
 
 ```bash
 pip install -r requirements.txt
-
-
+```
 
 ## Evaluation
 <b> Download data </b>
