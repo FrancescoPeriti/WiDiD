@@ -1,5 +1,5 @@
 # WiDiD
-Studying Word Meaning Evolution through Incremental Semantic Shift Detection: a Case-Study on the Italian Parliamentary Speeches
+Studying Word Meaning Evolution through Incremental Semantic Shift Detection: A Case Study of Italian Parliamentary Speeches
 
 ## Evaluation
 <b> Download data </b>
