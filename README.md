@@ -11,7 +11,7 @@ WiDiD is an incremental approach to Semantic Shift Detection, designed for traci
 <img src="imgs/abuse.png" alt="drawing" width="800"/>
 </p>
 <p align="center">
-Figure: An example of semantic shift in the word _abuse_ over time.
+Figure: An example of semantic shift in the word <i>abuse</i> over time.
 </p>
 
 ## Table of Contents
