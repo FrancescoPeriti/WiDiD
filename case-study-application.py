@@ -135,7 +135,7 @@ for word in bar:
     for step in range(0, 18):
         try:
             # load embeddings
-            pt_embs = torch.load(f"{embs_path}/cluster{step + 1}/12/{word}.pt")
+            pt_embs = torch.load(f"{embs_path}/corpus{step + 1}/12/{word}.pt")
         except FileNotFoundError:
             # update memory
             if step > 0:
