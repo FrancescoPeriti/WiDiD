@@ -134,7 +134,7 @@ We demonstrate the applicability of this incremental approach on a diachronic co
 
 ```
 @misc{montanelli2023survey,
-      title={A Survey on Contextualised Semantic Shift Detection}, 
+      title={{A Survey on Contextualised Semantic Shift Detection}}, 
       author={Stefano Montanelli and Francesco Periti},
       year={2023},
       eprint={2304.01666},
