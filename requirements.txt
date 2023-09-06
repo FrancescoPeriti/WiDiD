@@ -22,6 +22,7 @@ cleo @ file:///apps/sources/p/Python/extensions/cleo-0.8.1-py2.py3-none-any.whl
 click @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/click/click-7.1.2
 clikit @ file:///apps/sources/p/Python/extensions/clikit-0.6.2-py2.py3-none-any.whl
 colorama @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/colorama/colorama-0.4.3
+colorcet==3.0.1
 confection==0.0.4
 crashtest @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/crashtest/crashtest-0.3.1
 cryptography @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/cryptography/cryptography-3.1.1
@@ -70,10 +71,12 @@ murmurhash==1.0.9
 netaddr @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/netaddr/netaddr-0.8.0
 netifaces @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/netifaces/netifaces-0.10.9
 networkx==3.0
+nltk==3.5
 nose @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/nose/nose-1.3.7
 numpy==1.24.2
 outdated==0.2.2
 packaging==23.0
+pandas==2.0.0
 pandas-flavor==0.5.0
 paramiko @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/paramiko/paramiko-2.7.2
 pastel @ file:///apps/sources/p/Python/extensions/pastel-0.2.1-py2.py3-none-any.whl
@@ -85,6 +88,7 @@ pbr @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/pbr/pbr-5.5.0
 pexpect @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/pexpect/pexpect-4.8.0
 pingouin==0.5.3
 pkginfo @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/pkginfo/pkginfo-1.5.0.1
+plotly==5.9.0
 pluggy @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/pluggy/pluggy-0.13.1
 poetry @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/poetry/poetry-1.1.3
 poetry-core @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/poetrycore/poetry-core-1.0.0
@@ -101,6 +105,7 @@ pydantic==1.10.7
 Pygments @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/Pygments/Pygments-2.7.1
 pylev @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/pylev/pylev-1.3.0
 PyNaCl @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/PyNaCl/PyNaCl-1.4.0
+pymannkendall==1.4.2
 pyparsing @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/pyparsing/pyparsing-2.4.7
 pyrsistent @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/pyrsistent/pyrsistent-0.17.3
 pytest @ file:///dev/shm/Python/3.8.6/GCCcore-10.2.0/pytest/pytest-6.1.1
