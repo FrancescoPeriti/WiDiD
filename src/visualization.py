@@ -37,11 +37,12 @@ class WiDiDClusters:
         self.sentences = []
         for i in range(self.start, self.end+1):
             try:
-                with open(f'../{corpus_path}/corpus{i}/{word}.json', 'r') as file:
-                    sent_i = file.readlines()
-                    self.sentences.extend([eval(s)['sent'] for s in sent_i][:100])
+                file = open(f'../{corpus_path}/corpus{i}/{word}.json', 'r')
             except:
-                pass
+                continue
+            sent_i = file.readlines()
+            self.sentences.extend([eval(s)['sent'] for s in sent_i][:100])
+            
         for l, s in zip(self.labels, self.sentences):
             self.texts[l].append(s)
         
