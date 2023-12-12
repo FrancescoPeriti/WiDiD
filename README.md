@@ -115,6 +115,17 @@ We demonstrate the applicability of this incremental approach on a diachronic co
 ### References
 
 ```
+@article{periti2023studying,
+author = "Francesco Periti and Sergio Picascia and Stefano Montanelli and Alfio Ferrara and Nina Tahmasebi",
+title = "{Studying Word Meaning Evolution through Incremental Semantic Shift Detection: A Case Study of Italian Parliamentary Speeches}",
+year = "2023",
+month = "10",
+url = "https://www.techrxiv.org/articles/preprint/Studying_Word_Meaning_Evolution_through_Incremental_Semantic_Shift_Detection_A_Case_Study_of_Italian_Parliamentary_Speeches/24210915",
+doi = "10.36227/techrxiv.24210915.v1"
+}
+```
+
+```
 @inproceedings{periti2022done,
     title = {{What is Done is Done: an Incremental Approach to Semantic Shift Detection}},
     author = "Periti, Francesco  and
@@ -133,7 +144,7 @@ We demonstrate the applicability of this incremental approach on a diachronic co
 ```
 
 ```
-@misc{montanelli2023survey,
+@misc{periti2023survey,
       title={{A Survey on Contextualised Semantic Shift Detection}}, 
       author={Stefano Montanelli and Francesco Periti},
       year={2023},
