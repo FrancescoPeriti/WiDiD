@@ -17,7 +17,6 @@ do
    for model in "${models[@]}"
    do
        python src/lsc_measuring.py -e "${embedding_folder}" -m "${model}" -L "${labels_folder[i]}" -o "${scores_folder[i]}/${model}" -t "${targets_filename[i]}"
-       #python src/lsc_measuring.py -e "${embedding_folder}" -m "${model}" -L "${labels_folder[i]}" -o "${scores_folder[i]}/${model}_40" -t "${targets_filename_40[i]}"
    done
     i=$(($i+1))
 done
