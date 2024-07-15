@@ -9,7 +9,7 @@ dataset_folder="$3/LSC/SemEval-Latin"
 layers=12
 
 declare -a algorithms=("app")
-declare -a models=("xlm-roberta-base" "bert-base-multilingual-cased")
+declare -a models=("LuisAVasquez_simple-latin-bert-uncased" "xlm-roberta-base" "bert-base-multilingual-cased")
 
 for model in "${models[@]}"
 do
