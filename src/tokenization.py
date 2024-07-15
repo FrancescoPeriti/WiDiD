@@ -131,7 +131,7 @@ class SpacyTokenization(Tokenization, ABC):
             for token in row:
                 if self.is_doc_relevant(row, token):
                     rows.append(dict(sentidx=idx,
-                                     lemma=token.lemma_,
+                                     lemma=token.lemma_ if token.lemma_ in self.words else token.text, ###EDITED
                                      token=token.text,
                                      start=token.idx,
                                      end=token.idx + len(token.text),
