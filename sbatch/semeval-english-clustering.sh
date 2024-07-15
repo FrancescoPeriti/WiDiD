@@ -8,8 +8,8 @@ labels_folder="$2/LSC/SemEval-English"
 dataset_folder="$3/LSC/SemEval-English"
 layers=12
 
-declare -a algorithms=("app" "ap")
-declare -a models=("xlm-roberta-base") #"bert-base-multilingual-cased" "bert-base-uncased")
+declare -a algorithms=("app")
+declare -a models=("xlm-roberta-base" "bert-base-multilingual-cased" "bert-base-uncased")
 
 for model in "${models[@]}"
 do
