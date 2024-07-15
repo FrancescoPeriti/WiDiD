@@ -36,3 +36,6 @@ done
 
 rm "${dataset_folder}/${latin}/README.html" "${dataset_folder}/${latin}/README.md"
 cd "${current_folder}"
+
+# install spacy model
+pip install https://huggingface.co/latincy/la_core_web_lg/resolve/main/la_core_web_lg-any-py3-none-any.whl
