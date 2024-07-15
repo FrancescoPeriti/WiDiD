@@ -12,7 +12,7 @@ sampling=0
 targets="$3/LSC/SemEval-Latin/targets.txt"
 agg_sub_words='mean'
 
-declare -a models=("bert-base-multilingual-cased-ft" "xlm-roberta-base" "bert-base-multilingual-cased")
+declare -a models=("bowphs/LaBerta" "bert-base-multilingual-cased-ft" "xlm-roberta-base" "bert-base-multilingual-cased")
 
 for model in "${models[@]}"
 do
