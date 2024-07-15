@@ -8,7 +8,7 @@ labels_folder="$2/LSC/SemEval-Swedish"
 dataset_folder="$3/LSC/SemEval-Swedish"
 layers=12
 
-declare -a algorithms=("app" "ap")
+declare -a algorithms=("app")
 declare -a models=("xlm-roberta-base" "bert-base-multilingual-cased" "KB_bert-base-swedish-cased")
 
 for model in "${models[@]}"
