@@ -8,7 +8,7 @@ label_folder="$2/LSC/SemEval-Latin"
 score_folder="$3/LSC/SemEval-Latin"
 dataset_folder="$4/LSC/SemEval-Latin"
 
-declare -a models=("bert-base-multilingual-cased-ft") #"xlm-roberta-base" "bert-base-multilingual-cased")
+declare -a models=("LuisAVasquez_simple-latin-bert-uncased" bert-base-multilingual-cased" "xlm-roberta-base")
 
 for model in "${models[@]}"
 do
