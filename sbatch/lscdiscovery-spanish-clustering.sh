@@ -8,7 +8,7 @@ labels_folder="$2/LSC/LSCDiscovery-Spanish"
 dataset_folder="$3/LSC/LSCDiscovery-Spanish"
 layers=12
 
-declare -a algorithms=("app" "ap")
+declare -a algorithms=("app")
 declare -a models=("xlm-roberta-base" "bert-base-multilingual-cased" "dccuchile_bert-base-spanish-wwm-uncased")
 
 for model in "${models[@]}"
