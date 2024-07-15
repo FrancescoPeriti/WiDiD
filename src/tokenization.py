@@ -149,7 +149,17 @@ class StandardSpacyTokenization(SpacyTokenization):
     def is_doc_relevant(self, row: Doc, token: Token) -> bool:
         return token.lemma_ in self.words
 
+class LatinSpacyTokenization(SpacyTokenization):
+    """
+    This class tokenizes text using a given spaCy model and a list of target words.
+    Only the sentences containing the (lemma of) target words will be considered for tokenization.
 
+    Spacy Lemmatizer for Italian is not so good.
+    """
+
+    def is_doc_relevant(self, row: Doc, token: Token) -> bool:
+        return token.lemma_ in self.words or token.text.lower() in self.words
+        
 class ItalianSpacyTokenization(SpacyTokenization):
     """
     This class tokenizes text using a given spaCy model and a list of target words.
