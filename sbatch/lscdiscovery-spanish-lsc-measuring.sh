@@ -8,7 +8,7 @@ label_folder="$2/LSC/LSCDiscovery-Spanish"
 score_folder="$3/LSC/LSCDiscovery-Spanish"
 dataset_folder="$4/LSC/LSCDiscovery-Spanish"
 
-declare -a models=("dccuchile_bert-base-spanish-wwm-uncased-ft") #xlm-roberta-base" "bert-base-multilingual-cased" "dccuchile_bert-base-spanish-wwm-uncased")
+declare -a models=("dccuchile_bert-base-spanish-wwm-uncased" "xlm-roberta-base" "bert-base-multilingual-cased")
 
 for model in "${models[@]}"
 do
