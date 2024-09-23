@@ -115,13 +115,18 @@ We demonstrate the applicability of this incremental approach on a diachronic co
 ### References
 
 ```
-@article{periti2023studying,
-author = "Francesco Periti and Sergio Picascia and Stefano Montanelli and Alfio Ferrara and Nina Tahmasebi",
-title = "{Studying Word Meaning Evolution through Incremental Semantic Shift Detection: A Case Study of Italian Parliamentary Speeches}",
-year = "2023",
-month = "10",
-url = "https://www.techrxiv.org/articles/preprint/Studying_Word_Meaning_Evolution_through_Incremental_Semantic_Shift_Detection_A_Case_Study_of_Italian_Parliamentary_Speeches/24210915",
-doi = "10.36227/techrxiv.24210915.v1"
+@Article{periti2023word,
+    author    = {Francesco Periti and Sergio Picascia and Stefano Montanelli and Alfio Ferrara and Nina Tahmasebi},
+  title     = {{Studying Word Meaning Evolution through Incremental Semantic Shift Detection}},
+  journal   = {Language Resources and Evaluation},
+  year      = {2024},
+  volume    = {},
+  number    = {},
+  pages     = {},
+  month     = sep,
+  issn      = {1574-0218},
+  url       = {https://doi.org/10.1007/s10579-024-09769-1},
+  doi       = {10.1007/s10579-024-09769-1}
 }
 ```
 
@@ -144,14 +149,22 @@ doi = "10.36227/techrxiv.24210915.v1"
 ```
 
 ```
-@misc{periti2023survey,
-      title={{A Survey on Contextualised Semantic Shift Detection}}, 
-      author={Stefano Montanelli and Francesco Periti},
-      year={2023},
-      url = "https://arxiv.org/pdf/2304.01666.pdf",
-      doi = "doi.org/10.48550/arXiv.2304.01666",
-      eprint={2304.01666},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@Article{periti2024survey,
+    author = {Periti, Francesco and Montanelli, Stefano},
+    title = {{Lexical Semantic Change through Large Language Models: a Survey}},
+    year = {2024},
+    issue_date = {November 2024},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {56},
+    number = {11},
+    issn = {0360-0300},
+    url = {https://doi.org/10.1145/3672393},
+    doi = {10.1145/3672393},
+    journal = {ACM Comput. Surv.},
+    month = {jun},
+    articleno = {282},
+    numpages = {38},
+    keywords = {Lexical semantics, lexical semantic change, semantic shift detection, large language models}
 }
 ```
